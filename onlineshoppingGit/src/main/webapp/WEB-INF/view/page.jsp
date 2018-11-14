@@ -77,6 +77,11 @@ ${contextRoot} says - ${greeting}
 				<%@include file="contact.jsp"%>
 			</c:if>
 
+            <!--Load only when user clicks contact us-->
+			<c:if test="${userClickAllProducts == true or userClickCategoryProducts == true}">
+				<%@include file="listProducts.jsp"%>
+			</c:if>
+
 
 		</div>
    

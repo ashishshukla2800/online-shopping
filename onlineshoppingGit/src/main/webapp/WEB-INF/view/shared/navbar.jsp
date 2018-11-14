@@ -27,7 +27,7 @@
                     </li>
                     
                     <li id="listProducts">
-                        <a href="${contextRoot}/listProducts">View Products</a>
+                        <a href="${contextRoot}/show/all/products">View Products</a>
                     </li>
 <!-- 					<security:authorize access="hasAuthority('ADMIN')"> -->
 <!-- 	                    <li id="manageProduct"> -->

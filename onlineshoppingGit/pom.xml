@@ -16,27 +16,32 @@
 
 
 	<dependencies>
-	
-	
-	<!-- JSTL -->
-
+       
+       <!-- linked backend project  -->
+       <dependency>
+		 <groupId>net.kzn</groupId>
+		 <artifactId>shoppingbackendGit</artifactId>
+		 <version>0.0.1-SNAPSHOT</version>
+       </dependency>
+		
+		<!-- JSTL -->
 		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-		
+
 		<!--SPRING -->
-		
+
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
+
 		<!--JAVA EE -->
-		
+
 		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 		<dependency>
 			<groupId>javax</groupId>
